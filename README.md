@@ -6,14 +6,14 @@
 
 ## Example usage
 
-```
+```javascript
 mtrackr = require('mtrackr/dist/js/mtrackr.js')
 mtrackr.setup({
   buttonTemplate: '/views/mtrackr/mtrackr.html'
 })
 ```
 
-```
+```javascript
 var steps = [{
   element: 'nav.mainmenu a[href$="/personal"]' }, { // click on link
   element: 'nav.submenu a[href$="/personal/about"]' }, {
@@ -32,7 +32,7 @@ The MTrackr mouse is appended to the `span` of class `website-tour`.
 
 This example uses a custom button template */views/mtrackr/mtrackr.tour.html*:
 
-```
+```html
 <button type="button" class="uk-button uk-button-primary mtrackr-clickforme-button">
   Start the Tour
   <img src="/bower_components/mtrackr/dist/images/link-mouse.png" class="mtrackr-dropdown-button">
@@ -43,7 +43,7 @@ Please make sure the image source path is correct.
 
 Finally, place the following line in your website's main HTML file:
 
-```
+```html
 <div class="mtrackr-virtual-mouse-pointer"></div>
 ```
 
