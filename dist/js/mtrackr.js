@@ -1,3 +1,11 @@
+/*!
+ * MTrackr 0.0.0
+ * https://github.com/cntech/mtrackr
+ *
+ * Copyright 2015 Christian Niederreiter
+ * Released under the MIT license
+ */
+
 (function(root, factory) {
   // based on https://github.com/umdjs/umd
   if(typeof define === 'function' && define.amd) {
