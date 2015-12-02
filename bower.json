@@ -1,0 +1,30 @@
+{
+  "name": "mtrackr",
+  "version": "0.0.0",
+  "authors": [
+    "Christian Niederreiter"
+  ],
+  "description": "Video-like but video-less tours on your website",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "http://niederreiter.tech/pages/projects/mtrackr",
+  "main": [
+    "./dist/js/mtrackr.js",
+    "./dist/less/mtrackr.less",
+    "./dist/views/mtrackr.html"
+  ],
+  "dependencies": {
+    "paper": ">= 0.9.25"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
