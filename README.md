@@ -1,5 +1,7 @@
 # MTrackr
 
+Video-like but video-less tours on your website
+
 ## Install
 
 `bower install https://github.com/cntech/mtrackr.git`
